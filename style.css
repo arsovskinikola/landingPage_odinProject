@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* HEADER STYLING */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 20% 1% 20%;
+    background-color: #1f2937;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    font-size: 20px;
+    padding-top: 6px;
+
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN1 STYLING */
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 5% 20% 10% 20%;
+    background-color: #1f2937;
+    color: #F9Faf8;
+
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.main1-h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 25%;
+}
+
+.img1 {
+    width: 600px;
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN2 STYLING */
+
+.main2 {
+    text-align: center;
+     padding: 5% 20% 5% 20%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 82px;
+    padding-top: 20px;
+}
+
+.header2 {
+    font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 52px;
+}
+
+.info {
+    max-width: 200px;
+    color: rgb(37, 36, 36);
+  }
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 4px #3882f6 solid;
+    border-radius: 10px;
+}
+
+/* MAIN3 STYLING */
+
+.main3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background-color: #e5e7eb;
+    height: 500px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.bywho {
+    padding-left: 70%;
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+
+/* MAIN4 STYLING */
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    border-radius: 10px;
+    padding: 50px 200px 50px 200px;
+    background-color: #3882f6;
+}
+
+.text4 {
+    width: 500px;
+    color: white;
+}
+
+.box4 .btn {
+    border: 2px solid white;
+    width: 150px;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #1f2937;
+    color: white;
+}
